@@ -1,0 +1,53 @@
+{
+  "cnn": {
+    "num_kernel": 300,
+    "context_size": 7,
+    "stride": 2,
+    "drop_rate": 0.2,
+    "fc_dim": 300
+  },
+  "lstm": {
+    "hidden_dim": 256,
+    "fc_dim": 300,
+    "drop_rate": 0.2
+  },
+  "lstm_base": {
+    "hidden_dim": 256,
+    "fc_dim": 300,
+    "drop_rate": 0.2
+  },
+  "lstm_keras": {
+    "hidden_dim": 256,
+    "fc_dim": 300,
+    "drop_rate": 0.2
+  },
+  "swem_hier": {
+    "context_size": 7,
+    "stride": 2,
+    "drop_rate": 0.3,
+    "fc_dim": 300,
+    "is_mlp": true
+  },
+  "swem_avg": {
+    "drop_rate": 0.3,
+    "fc_dim": 300,
+    "is_mlp": true
+  },
+  "swem_max": {
+    "drop_rate": 0.3,
+    "fc_dim": 300,
+    "is_mlp": true
+  },
+  "swem_cat": {
+    "drop_rate": 0.3,
+    "fc_dim": 300,
+    "is_mlp": true
+  },
+  "at": {
+    "eta" : 3.0
+  },
+  "vat":{
+    "eps" : 1e-6,
+    "eta" : 3.0    
+  }
+}
